@@ -18,7 +18,7 @@ const generateHtml = pokemons => pokemons.reduce((accumulator, { name, id, types
   </li>
   `
   return accumulator;
-  }, '');
+}, '');
 
 const insertPokemonsIntoPage = pokemons => {
   const ul = document.querySelector('[data-js="pokedex"]');
